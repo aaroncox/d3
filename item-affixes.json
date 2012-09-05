@@ -1,0 +1,821 @@
+[
+  {
+    "name": "Strength",
+    "short": "Str",
+    "patterns": [
+      "+{I} Strength"
+    ]
+  },
+  {
+    "name": "Intelligence",
+    "short": "Int",
+    "patterns": [
+      "+{I} Intelligence"
+    ]
+  },
+  {
+    "name": "Dexterity",
+    "short": "Dex",
+    "patterns": [
+      "+{I} Dexterity"
+    ]
+  },
+  {
+    "name": "Vitality",
+    "short": "Vit",
+    "patterns": [
+      "+{I} Vitality"
+    ]
+  },
+  {
+    "name": "All Resist",
+    "short": "AR",
+    "patterns": [
+      "+{I} Resistance to All Elements"
+    ]
+  },
+  {
+    "name": "Arcane Resistance",
+    "short": "ArcR",
+    "patterns": [
+      "+{I} Arcane Resistance"
+    ]
+  },
+  {
+    "name": "Cold Resistance",
+    "short": "ColdR",
+    "patterns": [
+      "+{I} Cold Resistance"
+    ]
+  },
+  {
+    "name": "Fire Resistance",
+    "short": "FireR",
+    "patterns": [
+      "+{I} Fire Resistance"
+    ]
+  },
+  {
+    "name": "Poison Resistance",
+    "short": "PoisonR",
+    "patterns": [
+      "+{I} Poison Resistance"
+    ]
+  },
+  {
+    "name": "Lightning Resistance",
+    "short": "LtnR",
+    "patterns": [
+      "+{I} Lightning Resistance"
+    ]
+  },
+  {
+    "name": "Physical Resistance",
+    "short": "PhyR",
+    "patterns": [
+      "+{I} Physical Resistance"
+    ]
+  },
+  {
+    "name": "Arcane Damage",
+    "short": "ArcD",
+    "patterns": [
+      "+{I}-{I} Arcane Damage"
+    ]
+  },
+  {
+    "name": "Cold Damage",
+    "short": "ColdD",
+    "patterns": [
+      "+{I}-{I} Cold Damage"
+    ]
+  },
+  {
+    "name": "Fire Damage",
+    "short": "FireD",
+    "patterns": [
+      "+{I}-{I} Fire Damage"
+    ]
+  },
+  {
+    "name": "Holy Damage",
+    "short": "HolyD",
+    "patterns": [
+      "+{I}-{I} Holy Damage"
+    ]
+  },
+  {
+    "name": "Poison Damage",
+    "short": "PoisonD",
+    "patterns": [
+      "+{I}-{I} Poison Damage"
+    ]
+  },
+  {
+    "name": "Lightning Damage",
+    "short": "LtnD",
+    "patterns": [
+      "+{I}-{I} Lightning Damage"
+    ]
+  },
+  {
+    "name": "Damage",
+    "short": "Dmg",
+    "patterns": [
+      "+{I}-{I} Damage"
+    ]
+  },
+  {
+    "name": "Damage %",
+    "short": "Dmg%",
+    "patterns": [
+      "+{I}% Damage"
+    ]
+  },
+  {
+    "name": "Minimum Damage",
+    "short": "MinD",
+    "patterns": [
+      "+{I} Minimum Damage"
+    ]
+  },
+  {
+    "name": "Maximum Damage",
+    "short": "MaxD",
+    "patterns": [
+      "+{I} Maximum Damage"
+    ]
+  },
+  {
+    "name": "Attack Speed",
+    "short": "AtkSpd",
+    "patterns": [
+      "Increases Attack Speed by {I}%"
+    ]
+  },
+  {
+    "name": "Critical Hit Chance",
+    "short": "Crit",
+    "patterns": [
+      "Critical Hit Chance Increased by {F}%"
+    ]
+  },
+  {
+    "name": "Critical Hit Damage",
+    "short": "CritD",
+    "patterns": [
+      "Critical Hit Damage Increased by {I}%"
+    ]
+  },
+  {
+    "name": "Life on Hit",
+    "short": "LoH",
+    "patterns": [
+      "Each Hit Adds +{I} Life"
+    ]
+  },
+  {
+    "name": "Life on Kill",
+    "short": "LoK",
+    "patterns": [
+      "+{I} Life after Each Kill"
+    ]
+  },
+  {
+    "name": "Life Steal",
+    "short": "LS",
+    "patterns": [
+      "{F}% of Damage Dealt Is Converted to Life"
+    ]
+  },
+  {
+    "name": "",
+    "short": "LPS",
+    "patterns": [
+      "Gain {F} Life per Spirit Spent"
+    ]
+  },
+  {
+    "name": "Life",
+    "short": "Life",
+    "patterns": [
+      "+{I}% Life"
+    ]
+  },
+  {
+    "name": "Life Regeneration",
+    "short": "LRegen",
+    "patterns": [
+      "Regenerates {I} Life per Second"
+    ]
+  },
+  {
+    "name": "Globe Health",
+    "short": "GlobeHP",
+    "patterns": [
+      "Health Globes grant +{I} Life."
+    ]
+  },
+  {
+    "name": "Magic Find",
+    "short": "MF",
+    "patterns": [
+      "{I}% Better Chance of Finding Magical Items"
+    ]
+  },
+  {
+    "name": "Gold Find",
+    "short": "GF",
+    "patterns": [
+      "{I}% Extra Gold from Monsters"
+    ]
+  },
+  {
+    "name": "Bonus Experience",
+    "short": "Exp",
+    "patterns": [
+      "Monster kills grant +{I} experience."
+    ]
+  },
+  {
+    "name": "Movement Speed",
+    "short": "MvSpd",
+    "patterns": [
+      "+{I}% Movement Speed"
+    ]
+  },
+  {
+    "name": "Pickup Radius",
+    "short": "Pick",
+    "patterns": [
+      "Increases Gold and Health Pickup by {I} Yards"
+    ]
+  },
+  {
+    "name": "Reduced Level Requirement",
+    "short": "LvlRe",
+    "patterns": [
+      "Level Requirement Reduced by {I}"
+    ]
+  },
+  {
+    "name": "Maximum Arcane Power",
+    "short": "MaxArcP",
+    "patterns": [
+      "+{I} Maximum Arcane Power"
+    ]
+  },
+  {
+    "name": "Arcane Power on Critical Hit",
+    "short": "ArcPCrit",
+    "patterns": [
+      "Critical Hits grant {I} Arcane Power"
+    ]
+  },
+  {
+    "name": "Hatred Regeneration",
+    "short": "HateRegen",
+    "patterns": [
+      "Increases Hatred Regeneration by {F} per Second"
+    ]
+  },
+  {
+    "name": "Maximum Mana",
+    "short": "MaxMana",
+    "patterns": [
+      "+{I} Maximum Mana"
+    ]
+  },
+  {
+    "name": "Mana Regeneration",
+    "short": "ManaRegen",
+    "patterns": [
+      "Increases Mana Regeneration by {F} per Second"
+    ]
+  },
+  {
+    "name": "Maximum Discipline",
+    "short": "MaxDisc",
+    "patterns": [
+      "+{I} Maximum Discipline"
+    ]
+  },
+  {
+    "name": "Maximum Fury",
+    "short": "MaxFury",
+    "patterns": [
+      "+{I} Maximum Fury"
+    ]
+  },
+  {
+    "name": "Spirit Regeneration",
+    "short": "SpiritRegen",
+    "patterns": [
+      "Increases Spirit Regeneration by {F} per Second"
+    ]
+  },
+  {
+    "name": "Chill",
+    "short": "Chill",
+    "patterns": [
+      "{F}% Chance to Chill on Hit"
+    ]
+  },
+  {
+    "name": "Fear",
+    "short": "Fear",
+    "patterns": [
+      "{F}% Chance to Fear on Hit"
+    ]
+  },
+  {
+    "name": "Freeze",
+    "short": "Freeze",
+    "patterns": [
+      "{F}% Chance to Freeze on Hit"
+    ]
+  },
+  {
+    "name": "Immobilize",
+    "short": "Immobilize",
+    "patterns": [
+      "{F}% Chance to Immobilize on Hit"
+    ]
+  },
+  {
+    "name": "Knockback",
+    "short": "Knockback",
+    "patterns": [
+      "{F}% Chance to Knockback on Hit"
+    ]
+  },
+  {
+    "name": "Slow",
+    "short": "Slow",
+    "patterns": [
+      "{F}% Chance to Slow on Hit"
+    ]
+  },
+  {
+    "name": "Stun",
+    "short": "Stun",
+    "patterns": [
+      "{F}% Chance to Stun on Hit"
+    ]
+  },
+  {
+    "name": "Reduced Crowd Control",
+    "short": "ReCC",
+    "patterns": [
+      "Reduces duration of control impairing effects by {I}%"
+    ]
+  },
+  {
+    "name": "Reduced Elite Damage",
+    "short": "RDElite",
+    "patterns": [
+      "Reduces damage from elites by {I}%."
+    ]
+  },
+  {
+    "name": "Reduced Melee Damage",
+    "short": "RDMelee",
+    "patterns": [
+      "Reduces damage from melee attacks by {I}%."
+    ]
+  },
+  {
+    "name": "Reduced Ranged Damage",
+    "short": "RDRanged",
+    "patterns": [
+      "Reduces damage from ranged attacks by {I}%."
+    ]
+  },
+  {
+    "name": "Armor",
+    "short": "Armor",
+    "patterns": [
+      "+{I} Armor"
+    ]
+  },
+  {
+    "name": "Block",
+    "short": "Block",
+    "patterns": [
+      "+{I}% Chance to Block"
+    ]
+  },
+  {
+    "name": "Indestructible",
+    "short": "Ind",
+    "patterns": [
+      "Ignores Durability Loss"
+    ]
+  },
+  {
+    "name": "Thorn",
+    "short": "Thorn",
+    "patterns": [
+      "Melee attackers take {I} damage per hit"
+    ]
+  },
+  {
+    "name": "Bleed",
+    "short": "Bleed",
+    "patterns": [
+      "{F}% chance to inflict Bleed for {I}-{I} damage over 5 seconds."
+    ]
+  },
+  {
+    "name": "Socket",
+    "short": "Soc",
+    "patterns": [
+      "Empty Socket"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-HoA",
+    "patterns": [
+      "Reduces resource cost of Hammer of the Ancients by {i} Fury."
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-OP",
+    "patterns": [
+      "Increases Critical Chance of Overpower by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-SS",
+    "patterns": [
+      "Increases Critical Chance of Seismic Slam by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-WW",
+    "patterns": [
+      "Increases Critical Chance of Whirlwind by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-BS",
+    "patterns": [
+      "Increases Bola Shot Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-EA",
+    "patterns": [
+      "Increases Elemental Arrow Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-ES",
+    "patterns": [
+      "Increases Entangling Shot Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-HA",
+    "patterns": [
+      "Increases Hungering Arrow Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-MS",
+    "patterns": [
+      "Increases Critical Chance of Multishot by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-RF",
+    "patterns": [
+      "Increases Critical Chance of Rapid Fire by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-LTK",
+    "patterns": [
+      "Reduces resource cost of Lashing Tail Kick by {i} Spirit."
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-TR",
+    "patterns": [
+      "Increases Critical Chance of Tempest Rush by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-WoL",
+    "patterns": [
+      "Increases Critical Chance of Wave of Light by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-FBomb",
+    "patterns": [
+      "Reduces resource cost of Firebomb by {i} Mana."
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-Haunt",
+    "patterns": [
+      "Increases Haunt Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-PoT",
+    "patterns": [
+      "Increases Plague of Toads Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-PD",
+    "patterns": [
+      "Increases Poison Dart Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-SB",
+    "patterns": [
+      "Increases Spirit Barrage Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-WoZ",
+    "patterns": [
+      "Reduces cooldown of Wall of Zombies by {i} seconds."
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-ZC",
+    "patterns": [
+      "Reduces resource cost of Zombie Charger by {i} Mana."
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-ET",
+    "patterns": [
+      "Increases Critical Chance of Energy Twister by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-MM",
+    "patterns": [
+      "Increases Magic Missile Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-AO",
+    "patterns": [
+      "Increases Critical Chance of Arcane Orb by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-Blizz",
+    "patterns": [
+      "Increases duration of Blizzard by {i} seconds"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-Meteor",
+    "patterns": [
+      "Reduces resource cost of Meteor by {i} Arcane Power."
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-SP",
+    "patterns": [
+      "Increases Shock Pulse Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-SB",
+    "patterns": [
+      "Increases Spectral Blade Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-Bash",
+    "patterns": [
+      "Increases Bash Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-Cleave",
+    "patterns": [
+      "Increases Cleave Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-Frenzy",
+    "patterns": [
+      "Increases Frenzy Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-Rend",
+    "patterns": [
+      "Reduces resource cost of Rend by {i} Fury."
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-Revenge",
+    "patterns": [
+      "Increases Critical Chance of Revenge by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "B-WThrow",
+    "patterns": [
+      "Reduces resource cost of Weapon Throw by {i} Fury."
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-Chakram",
+    "patterns": [
+      "Reduces resource cost of Chakram by {i} Hatred."
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-EFire",
+    "patterns": [
+      "Increases Evasive Fire Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-Grenades",
+    "patterns": [
+      "Increases Grenades Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-Impale",
+    "patterns": [
+      "Reduces resource cost of Impale by {i} Hatred."
+    ]
+  },
+  {
+    "name": "",
+    "short": "D-STrap",
+    "patterns": [
+      "Increases Spike Trap Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-CWave",
+    "patterns": [
+      "Increases Crippling Wave Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-CStrke",
+    "patterns": [
+      "Reduces resource cost of Cyclone Strike by {i} Spirit."
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-DReach",
+    "patterns": [
+      "Increases Deadly Reach Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-EPalm",
+    "patterns": [
+      "Increases Exploding Palm Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-FoT",
+    "patterns": [
+      "Increases Fists of Thunder Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-SWind",
+    "patterns": [
+      "Increases Sweeping Wind Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "M-WotHF",
+    "patterns": [
+      "Increases Way of the Hundred Fists Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-ACloud",
+    "patterns": [
+      "Increases Critical Chance of Acid Cloud by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-FBats",
+    "patterns": [
+      "Reduces resource cost of Fire Bats by {i} Mana."
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-LSwarm",
+    "patterns": [
+      "Increases Locust Swarm Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "W-ZDogs",
+    "patterns": [
+      "Reduces cooldown of Summon Zombie Dogs by {i} seconds."
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-ATorrent",
+    "patterns": [
+      "Reduces resource cost of Arcane Torrent by {i} Arcane Power."
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-DisInt",
+    "patterns": [
+      "Reduces resource cost of Disintegrate by {i} Arcane Power."
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-Elec",
+    "patterns": [
+      "Increases Electrocute Damage by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-EB",
+    "patterns": [
+      "Increases Critical Chance of Explosive Blast by {i}%"
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-Hydra",
+    "patterns": [
+      "Reduces resource cost of Hydra by {i} Arcane Power."
+    ]
+  },
+  {
+    "name": "",
+    "short": "Z-RoF",
+    "patterns": [
+      "Increases Critical Chance of Ray of Frost by {i}%"
+    ]
+  }
+]
