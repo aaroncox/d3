@@ -1,0 +1,505 @@
+{
+	'cains-honor': {
+		name: 'Cain\'s Honor',
+		effect: {
+			2: {
+				'plus-attack-speed': 0.02
+			},
+			3: {
+				'plus-magic-find': 0.1
+			}
+		}
+	},
+	'cains-fate': {
+		name: 'Cain\'s Fate',
+		effect: {
+			2: {
+				'plus-attack-speed': 0.02
+			},
+			3: {
+				'plus-magic-find': 0.1,
+				'plus-experience-percent': 0.3
+			}
+		}
+	},
+	'aughilds-treasured': {
+		name: 'Aughild\'s Treasured',
+		effect: {
+			2: {
+				'melee-reduce': 0.02
+			},
+			3: {
+				'range-reduce': 0.02
+			}
+		}
+	},
+	'aughilds-victory': {
+		name: 'Aughild\'s Victory',
+		effect: {
+			2: {
+				'melee-reduce': 0.02
+			},
+			3: {
+				'range-reduce': 0.02
+			}
+		}
+	},
+	'guardians-regalia': {
+		name: 'Guardian\'s Regalia',
+		effect: {
+			2: {
+				'vitality': 110,
+				'life-regen': 130,
+			}
+		}
+	},
+	'guardians-contingency': {
+		name: 'Guardian\'s Contingency',
+		effect: {
+			2: {
+				'vitality': 110,
+				'life-regen': 130,
+			}
+		}
+	},
+	'immortal-kings-will': {
+		name: 'Immortal King\'s Will',
+		effect: {
+			2: {
+				'resist-all': 60
+			},
+			3: {
+				'melee-reduce': 0.02
+			},
+			5: {
+				'fury-max': 5,
+				'fury-spent-life': 5
+			}
+		}
+	},
+	'immortal-kings-legend': {
+		name: 'Immortal King\'s Legend',
+		effect: {
+			2: {
+				'resist-all': 60
+			},
+			3: {
+				'melee-reduce': 0.04
+			},
+			5: {
+				'fury-max': 5,
+				'fury-spent-life': 5,
+				'generate-fury': 2
+			}
+		}
+	},
+	'natalyas-wrath': {
+		name: 'Natalya\'s Wrath',
+		effect: {
+			2: {
+				'critical-hit': 0.07,
+			},
+			3: {
+				'dexterity': 130,
+			},
+			4: {
+				'discipline-regen': 2
+			}
+		}
+	},
+	'natalyas-solace': {
+		name: 'Natalya\'s Solace',
+		effect: {
+			2: {
+				'critical-hit': 0.07,
+			},
+			3: {
+				'dexterity': 130,
+			},
+			4: {
+				'max-discipline': 20
+			}
+		}
+	},
+	'sages-wisdom': {
+		name: 'Sage\'s Wisdom',
+		effect: {
+			2: {
+				'strength': 35,
+				'dexterity': 35,
+				'intelligence': 35,
+				'vitality': 35,
+			}
+		}
+	},
+	'sages-plight': {
+		name: 'Sage\'s Plight',
+		effect: {
+			2: {
+				'strength': 35,
+				'dexterity': 35,
+				'intelligence': 35,
+				'vitality': 35,
+			}
+		}
+	},
+	'tal-rashas-wrappings': {
+		name: 'Tal Rasha\'s Wrappings',
+		effect: {
+			2: {
+				'plus-fire-damage': 0.03
+			},
+			3: {
+				'plus-lightning-damage': 0.03
+			},
+			4: {
+				'plus-cold-damage': 0.03
+			}
+		}
+	},
+	'tal-rashas-sacrifice': {
+		name: 'Tal Rasha\'s Sacrifice',
+		effect: {
+			2: {
+				'plus-fire-damage': 0.03
+			},
+			3: {
+				'plus-lightning-damage': 0.03
+			},
+			4: {
+				'plus-cold-damage': 0.03,
+				'ap-regen': 2
+			}
+		}
+	},
+	'borns-aegis': {
+		name: 'Born\'s Aegis',
+		effect: {
+			2: {
+				'plus-life': 0.02,
+				'plus-experience': 20
+			}
+		}
+	},
+	'borns-defiance': {
+		name: 'Born\'s Defiance',
+		effect: {
+			2: {
+				'plus-life': 0.02,
+				'plus-experience': 20
+			}
+		}
+	},
+	'ashearas-bindings': {
+		name: 'Asheara\'s Bindings',
+		effect: {
+			2: {
+				'resist-all': 30
+			},
+			3: {
+				'life-steal': 0.025,
+				'thorns': 300
+			}
+		}
+	},
+	'ashearas-uniform': {
+		name: 'Asheara\'s Uniform',
+		effect: {
+			2: {
+				'resist-all': 30
+			},
+			3: {
+				'life-steal': 0.025,
+				'thorns': 300
+			}
+		}
+	},
+	'demons-carapace': {
+		name: 'Demon\'s Carapace',
+		effect: {
+			2: {
+				'thorns': 999
+			},
+			3: {
+				'chance-fear': 0.011
+			},
+			4: {
+				'demon-damage': 0.03
+			}
+		}
+	},
+	'demons-skin': {
+		name: 'Demon\'s Skin',
+		effect: {
+			2: {
+				'thorns': 999
+			},
+			3: {
+				'chance-fear': 0.011
+			},
+			4: {
+				'demon-damage': 0.03,
+				'chance-reflect-projectiles': true
+			}
+		}
+	},
+	'blackthornes-regalia': {
+		name: 'Blackthorne\'s Regalia',
+		effect: {
+			2: {
+				'vitality': 100
+			}, 
+			3: {
+				'elite-damage': 0.02
+			},
+			4: {
+				'plus-gold-find': 0.05,
+				'plus-magic-find': 0.05
+			}
+		}
+	},
+	'blackthornes-armor': {
+		name: 'Blackthorne\'s ReArmorgalia',
+		effect: {
+			2: {
+				'vitality': 100
+			}, 
+			3: {
+				'elite-damage': 0.06
+			},
+			4: {
+				'plus-gold-find': 0.15,
+				'plus-magic-find': 0.15,
+				'elite-damage': 0.07
+			}
+		}
+	},
+	'innas-majesty': {
+		name: 'Inna\'s Majesty',
+		effect: {
+			2: {
+				'dexterity': 130
+			},
+			3: {
+				'spirit-regen': 0.33
+			},
+			4: {
+				'spirit-spent-life': 10
+			}
+		}
+	},
+	'innas-grandeur': {
+		name: 'Inna\'s Grandeur',
+		effect: {
+			2: {
+				'dexterity': 130
+			},
+			3: {
+				'spirit-regen': 0.33
+			},
+			4: {
+				'spirit-spent-life': 10,
+				'mk-sweeping-wind-cost': 70
+			}
+		}
+	},
+	'zunimassas-spirit': {
+		name: 'Zunimassa\'s Spirit',
+		effect: {
+			2: {
+				'intelligence': 130
+			},
+			3: {
+				'resist-all': 55
+			},
+			4: {
+				'mana-kill': 10
+			}
+		}
+	},
+	'zunimassas-whispers': {
+		name: 'Zunimassa\'s Whispers',
+		effect: {
+			2: {
+				'intelligence': 130
+			},
+			3: {
+				'resist-all': 55
+			},
+			4: {
+				'mana-kill': 10,
+				'mana-regen': 20
+			}
+		}
+	},
+	'captain-crimsons-attire': {
+		name: 'Captain Crimson\'s Attire',
+		effect: {
+			2: {
+				'life-regen': 20
+			},
+			3: {
+				'resist-all': 20
+			}
+		}
+	},
+	'captain-crimsons-finery': {
+		name: 'Captain Crimson\'s Finery',
+		effect: {
+			2: {
+				'life-regen': 20
+			},
+			3: {
+				'resist-all': 20
+			}
+		}
+	},
+	'endless-journey': {
+		name: 'Endless Journey',
+		effect: {
+			2: {
+				'vitality': 100,
+				'critical-hit-damage': 0.5
+			}
+		}
+	},
+	'endless-path': {
+		name: 'Endless Path',
+		effect: {
+			2: {
+				'vitality': 100,
+				'critical-hit-damage': 0.5
+			}
+		}
+	},
+	'legacy-of-nighttime-whispers': {
+		name: 'Legacy of Nighttime Whispers',
+		effect: {
+			2: {
+				'plus-gold-find': 0.15,
+				'plus-magic-find': 0.15
+			}
+		}
+	},
+	'legacy-of-wicked-dreams': {
+		name: 'Legacy of Wicked Dreams',
+		effect: {
+			2: {
+				'plus-gold-find': 0.15,
+				'plus-magic-find': 0.15,
+				'chance-skeleton': true
+			}
+		}
+	},
+	'hallowed-armaments': {
+		name: 'Hallowed Armaments',
+		effect: {
+			2: {
+				'resist-all': 40,
+				'plus-attack-speed': 0.05
+			}
+		}
+	},
+	'hallowed-defenders': {
+		name: 'Hallowed Defenders',
+		effect: {
+			2: {
+				'resist-all': 40,
+				'plus-attack-speed': 0.05
+			}
+		}
+	},
+	'bul-kathoss-glory': {
+		name: 'Bul-Kathos\'s Glory',
+		effect: {
+			2: {
+				'strength': 130, 
+				'fury-max': 5,
+				'chance-whirlwind': true
+			}
+		}
+	},
+	'bul-kathoss-children': {
+		name: 'Bul-Kathos\'s Children',
+		effect: {
+			2: {
+				'strength': 100,
+				'fury-max': 5
+			}
+		}
+	},
+	'danettas-creed': {
+		name: 'Danetta\'s Creed',
+		effect: {
+			2: {
+				'dexterity': 130,
+				'elite-damage': 0.03
+			}
+		}
+	},
+	'danettas-oath': {
+		name: 'Danetta\'s Oath',
+		effect: {
+			2: {
+				'dexterity': 130,
+				'elite-damage': 0.03
+			}
+		}
+	},
+	'chantodos-legacy': {
+		name: 'Chantodo\'s Legacy',
+		effect: {
+			2: {
+				'resist-all': 60,
+				'life-regen': 245
+			}
+		}
+	},
+	'chantodos-return': {
+		name: 'Chantodo\'s Return',
+		effect: {
+			2: {
+				'intelligence': 130,
+				'elite-reduce': 0.07
+			}
+		}
+	},
+	'shenlongs-defense': {
+		name: 'Shenlong\'s Defense',
+		effect: {
+			2: {
+				'dexterity': 130,
+				'spirit-regen': 0.33
+			}
+		}
+	},
+	'shenlongs-noble-path': {
+		name: 'Shenlong\'s Noble Path',
+		effect: {
+			2: {
+				'dexterity': 130,
+				'spirit-regen': 0.33,
+				'chance-ball-energy': true
+			}
+		}
+	},
+	'manajumas-ritual': {
+		name: 'Manajuma\'s Ritual',
+		effect: {
+			2: {
+				'intelligence': 130,
+				'mana-kill': 5
+			}
+		}
+	},
+	'manajumas-ornaments': {
+		name: 'Manajuma\'s Ornaments',
+		effect: {
+			2: {
+				'intelligence': 130,
+				'mana-kill': 5,
+				'effect-poison-cloud': true
+			}
+		}
+	}
+};
